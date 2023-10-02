@@ -321,3 +321,24 @@ java.lang.IllegalStateException: Provisioning system has not been initialized
 	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getPlanner(UpdateChecker.java:176)
 	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:136)
 	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:78)
+!SESSION 2023-10-02 17:24:47.435 -----------------------------------------------
+eclipse.buildId=Version 1.11.2
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_CA
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-10-02 17:24:53.389
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-10-02 17:24:53.451
+!MESSAGE Log4j initialized with config file C:\GitRepo\RTOS_ST429\workspace\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-10-02 17:24:57.257
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-10-02 17:27:49.046
+!MESSAGE Indexed 'FreeRTOS_Project' (19 sources, 81 headers) in 4.51 sec: 4,584 declarations; 20,547 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.008%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-10-02 17:34:28.696
+!MESSAGE Indexed 'FreeRTOS_Project' (28 sources, 99 headers) in 2.14 sec: 6,441 declarations; 29,404 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0056%)
